@@ -1,0 +1,22 @@
+[user]
+	name = Irina Dumitrascu
+	email = me@dira.ro
+[github]
+	user = dira
+	token = 789b717f2c5784e9b1dd9b5425d5ba51
+[diff]
+	color = auto
+[pager]
+	color = true
+[status]
+	color = auto
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 0x0+0+0
+	history-view-vpane-position = 287
+	file-view-vpane-position = 574
+	main-window-view = HistoryView
+[push]
+	default = tracking
+[core]
+	editor = vim

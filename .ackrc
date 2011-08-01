@@ -1,0 +1,23 @@
+--ignore-case
+--all-types
+--pager=less -R -N -X
+--noheading
+--break
+--color
+
+# ignores
+--ignore-dir=log
+--ignore-dir=tmp
+
+# extra file types
+--type-add
+ruby=.rake
+
+--type-set
+sass=.sass
+
+--type-set
+haml=.haml
+
+--type-set
+coffee=.coffee
