@@ -9,3 +9,7 @@ t() { ruby -Itest "$1" -n /"$2"/ }
 alias rtu='rake test:units'
 alias rtf='rake test:functionals'
 alias rti='rake test:integration'
+
+alias r='./script/rails'
+alias rc='r c'
+alias rgm='r g migration'
