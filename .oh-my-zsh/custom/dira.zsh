@@ -18,3 +18,7 @@ alias rdm='rake db:migrate'
 alias rdmt='rake db:migrate RAILS_ENV=test'
 alias rdr='rake db:rollback'
 alias rdrt='rake db:rollback RAILS_ENV=test'
+
+alias b='bundle'
+alias bi='bundle install'
+alias gu='bundle exec guard'
