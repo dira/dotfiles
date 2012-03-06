@@ -26,7 +26,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # bins
-export PATH=~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
 
 # rbnev
 export PATH=$HOME/.rbenv/bin:$PATH
