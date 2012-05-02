@@ -32,6 +32,8 @@ export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/u
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
+export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
+
 # z - aliased to j - jump to frecent folders
 _Z_CMD="j"
 . $HOME/bin/z.sh
