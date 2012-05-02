@@ -4,6 +4,10 @@ alias gfr='git pull --rebase'
 alias gc='git commit'
 alias gca='gc --amend'
 alias gcm='git commit -m'
+alias gri='git rebase -i'
+alias grc='git rebase --continue'
+alias gsh='git stash'
+alias gsp='git stash pop'
 
 t() { ruby -Itest "$1" -n /"$2"/ }
 alias rtu='rake test:units'
