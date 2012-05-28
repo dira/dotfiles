@@ -14,9 +14,9 @@ alias rtu='rake test:units'
 alias rtf='rake test:functionals'
 alias rti='rake test:integration'
 
-alias r='./script/rails'
-alias rc='r c'
-alias rgm='r g migration'
+alias ra='./script/rails'
+alias rc='ra c'
+alias rgm='ra g migration'
 
 alias rdm='rake db:migrate'
 alias rdmt='rake db:migrate RAILS_ENV=test'
