@@ -26,10 +26,9 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # bins
-export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
+export PATH=/Users/dira/.rbenv/shims:/Users/dira/.rbenv/bin:/Users/dira/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
 
 # rbnev
-export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
