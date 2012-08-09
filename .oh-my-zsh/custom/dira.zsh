@@ -7,7 +7,10 @@ alias gcm='git commit -m'
 alias gri='git rebase -i'
 alias grc='git rebase --continue'
 alias gsh='git stash'
-alias gsp='git stash pop'
+alias gshp='git stash pop'
+alias gco='git checkout'
+alias gb='git branch'
+
 
 t() { ruby -Itest "$1" -n /"$2"/ }
 alias rtu='rake test:units'
@@ -25,4 +28,6 @@ alias rdrt='rake db:rollback RAILS_ENV=test'
 
 alias b='bundle'
 alias bi='bundle install'
-alias gu='bundle exec guard'
+alias gu='bundle exec guard -l 0.5'
+
+alias redis='/usr/local/bin/redis-server >/dev/null &'
