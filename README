@@ -1,0 +1,9 @@
+ln -s ~/dotfiles/.oh-my-zsh/custom/dira.zsh .oh-my-zsh/custom/dira.zsh
+ln -s ~/dotfiles/.powconfig 
+rm .zshrc; ln -s ~/dotfiles/.zshrc 
+ln -s ~/dotfiles/.irbrc 
+ln -s ~/dotfiles/.gitignore 
+rm .gitconfig;ln -s ~/dotfiles/.gitconfig
+ln -s ~/dotfiles/.gemrc 
+ln -s ~/dotfiles/.ackrc
+
