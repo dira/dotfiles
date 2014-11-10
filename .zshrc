@@ -26,7 +26,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # bins
-export PATH=/Users/dira/.rbenv/shims:/Users/dira/.rbenv/bin:/Users/dira/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin
+export PATH=/Users/dira/.rbenv/shims:/Users/dira/.rbenv/bin:/Users/dira/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/X11/bin
 
 # rbnev
 eval "$(rbenv init -)"
@@ -39,3 +39,6 @@ _Z_CMD="j"
 function precmd () {
   _z --add "$(pwd -P)"
 }
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
