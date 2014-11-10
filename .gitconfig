@@ -17,7 +17,11 @@
 	file-view-vpane-position = 574
 	main-window-view = HistoryView
 [push]
-	default = tracking
+	default = current
 [core]
 	editor = v
+  ignorecase = true
 	excludesfile = /Users/dira/.gitignore
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
